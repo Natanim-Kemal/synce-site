@@ -5,7 +5,7 @@
   --foreground: #ffffff;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -37,7 +37,7 @@ body::before {
   bottom: 0;
   background: radial-gradient(ellipse at top,
       rgba(99, 102, 241, 0.15) 0%,
-      rgba(255, 0, 0, 0.1) 30%,
+      rgba(213, 185, 185, 0.1) 30%,
       transparent 60%);
   pointer-events: none;
   z-index: -1;

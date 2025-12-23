@@ -22,12 +22,12 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center pt-[200px]">
+      <section className="min-h-screen flex items-center justify-center md:pt-[200px]">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-b from-white to-neutral-400 bg-clip-text text-transparent">
             PDF Sync Made Simple
           </h1>
-          <p className="text-lg md:text-xl text-neutral-300 mb-12 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-neutral-300 mb-12 max-w-lg md:max-w-2xl mx-auto">
             Seamless PDF synchronization across all your devices.
             Built with Flutter and NestJS for maximum performance and reliability.
           </p>
